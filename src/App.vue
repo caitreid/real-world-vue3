@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-// import HelloWorld from './components/EventCard.vue'
+
 </script>
 
 <template>
@@ -8,11 +8,12 @@ import { RouterLink, RouterView } from 'vue-router'
     <header>
       <div class="wrapper">
         <nav>
-          <RouterLink to="/">Home</RouterLink> |
+          <RouterLink to="/">Events</RouterLink> |
           <RouterLink to="/about">About</RouterLink>
         </nav>
       </div>
     </header>
+    <h1>Events For Good</h1>
     <RouterView />
   </div>
 </template>
